@@ -36,10 +36,10 @@ public class Board {
 
 				if (cells[rows][cols].equals(Player.Empty)) {
 					return true;
-				} // End of if Statement
+				} else
+					return false; // End of if Statement
 			} // End of COLS for loop
 		} // End of rows for loop
-		return false;
 	}
 	
 	/** Return true if the current player "thePlayer" has won after making their move  */
